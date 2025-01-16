@@ -1,1 +1,14 @@
-ok so i suppose the code goes here
+reviews=[]
+sentiment_ratings=[]
+product_types=[]
+helpfulness_ratings=[]
+
+with open("Compiled_Reviews.txt") as f:
+   for line in f.readlines()[1:]:
+        fields = line.rstrip().split('\t')
+        reviews.append(fields[0])
+        sentiment_ratings.append(fields[1])
+        product_types.append(fields[2])
+        helpfulness_ratings.append(fields[3])
+
+print[reviews]
