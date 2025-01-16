@@ -1,4 +1,4 @@
-#Comp Ling 1 coursework
+## Comp Ling 1 coursework
 
 This project is part of a coursework submission for LELA60331 Computational Linguistics. 
 
